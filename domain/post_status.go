@@ -3,7 +3,7 @@ package domain
 type PostStatus string
 
 const (
-	Non     PostStatus = "none"
-	Publish            = "publish"
-	Suspend            = "suspend"
+	PostNone    PostStatus = "none"
+	PostPublish PostStatus = "publish"
+	PostSuspend PostStatus = "suspend"
 )

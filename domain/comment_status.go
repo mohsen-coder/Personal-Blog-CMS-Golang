@@ -3,7 +3,7 @@ package domain
 type CommentStatus string
 
 const (
-	None   CommentStatus = "none"
-	Accept               = "accept"
-	Reject               = "reject"
+	CommentNone   CommentStatus = "none"
+	CommentAccept CommentStatus = "accept"
+	CommentReject CommentStatus = "reject"
 )
