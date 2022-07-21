@@ -14,8 +14,8 @@ type Post struct {
 	Author      *Account
 	View        int
 	Like        int
-	PublishDate *time.Time
+	PublishDate time.Time
 	Status      PostStatus
-	CreateAt    *time.Time
-	UpdateAt    *time.Time
+	CreatedAt   time.Time
+	UpdatedAt   time.Time
 }
