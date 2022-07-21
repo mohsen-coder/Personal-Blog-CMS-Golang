@@ -3,7 +3,7 @@ package domain
 type AccountRole uint8
 
 const (
-	User AccountRole = iota
-	Writer
-	Admin
+	AccountUser AccountRole = iota + 1
+	AccountWriter
+	AccountAdmin
 )
