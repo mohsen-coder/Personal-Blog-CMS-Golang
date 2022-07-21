@@ -3,6 +3,6 @@ package domain
 type MessageStatus string
 
 const (
-	Read   = "read"
-	UnRead = "unread"
+	MessageRead   = "read"
+	MessageUnRead = "unread"
 )
